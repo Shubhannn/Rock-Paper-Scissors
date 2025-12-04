@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rock Paper Scissors - Betting</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/script.js" defer></script>
+</head>
+<body>
+    <div class="background-gradient"></div>
+
+    <div class="game-shell">
+        <header>
+            <h1>Rock · Paper · Scissors Casino</h1>
+            <p class="subtitle">Place your bet, pick your hand, cash out anytime.</p>
+            <p id="time"></p>
+        </header>
+
+        <section class="setup-card">
+            <div class="setup-left">
+                <label for="startingBalance">Starting Chips</label>
+                <input type="number" id="startingBalance" value="100" min="1">
+            </div>
+            <button id="startGame" class="primary-btn">Start Game</button>
+        </section>
+
+        <section id="gameArea" class="game-card hidden">
+            <div class="top-row">
+                <div class="info-box">
+                    <span class="label">Balance</span>
+                    <span id="balance" class="value">0</span>
+                </div>
+                <div class="info-box">
+                    <span class="label">Bet</span>
+                    <input type="number" id="bet" value="10" min="1">
+                </div>
+                <div class="info-box">
+                    <span class="label">Action</span>
+                    <button id="exitGame" class="secondary-btn">Exit with Money</button>
+                </div>
+            </div>
+
+            <div class="arena">
+                <div class="player-area">
+                    <h2>You</h2>
+                    <div class="hand user-hand">
+                        <img id="userImage" src="/static/images/rock.png" alt="Your choice">
+                    </div>
+                </div>
+                <div class="vs-badge">VS</div>
+                <div class="bot-area">
+                    <h2>Bot</h2>
+                    <div class="hand bot-hand">
+                        <img id="botImage" src="/static/images/rock.png" alt="Bot choice">
+                    </div>
+                </div>
+            </div>
+
+            <p id="status" class="status-text">Click an icon to play your first round.</p>
+
+            <div class="options-row">
+                <button class="option-card" data-choice="rock">
+                    <img src="/static/images/rock.png" alt="Rock">
+                    <span>Rock</span>
+                </button>
+                <button class="option-card" data-choice="paper">
+                    <img src="/static/images/paper.png" alt="Paper">
+                    <span>Paper</span>
+                </button>
+                <button class="option-card" data-choice="scissors">
+                    <img src="/static/images/scissors.png" alt="Scissors">
+                    <span>Scissors</span>
+                </button>
+            </div>
+
+            <div class="stats-row">
+                <p>
+                    Wins: <span id="wins">0</span> ·
+                    Losses: <span id="losses">0</span> ·
+                    Ties: <span id="ties">0</span>
+                </p>
+                <p>Win Rate: <span id="winrate">0</span>%</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
