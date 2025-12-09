@@ -2068,5 +2068,302 @@
     "result": "loss",
     "balance_after": 80,
     "message": "Dice: 3 + 3 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:15",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "rock",
+    "result": "tie",
+    "balance_after": 100,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:16",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "paper",
+    "result": "tie",
+    "balance_after": 100,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:17",
+    "game": "rps",
+    "choice": "scissors",
+    "computer": "rock",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:19",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "paper",
+    "result": "tie",
+    "balance_after": 90,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:20",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "paper",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:20",
+    "game": "rps",
+    "choice": "scissors",
+    "computer": "paper",
+    "result": "win",
+    "balance_after": 90,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-10 02:12:21",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "scissors",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:21",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "rock",
+    "result": "tie",
+    "balance_after": 80,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:24",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "paper",
+    "result": "tie",
+    "balance_after": 80,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:25",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "rock",
+    "result": "tie",
+    "balance_after": 80,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:26",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "scissors",
+    "result": "win",
+    "balance_after": 90,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-10 02:12:29",
+    "game": "rps",
+    "choice": "scissors",
+    "computer": "rock",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:30",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "paper",
+    "result": "tie",
+    "balance_after": 80,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:30",
+    "game": "rps",
+    "choice": "scissors",
+    "computer": "rock",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:31",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "scissors",
+    "result": "win",
+    "balance_after": 80,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-10 02:12:32",
+    "game": "rps",
+    "choice": "paper",
+    "computer": "rock",
+    "result": "win",
+    "balance_after": 90,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-10 02:12:32",
+    "game": "rps",
+    "choice": "scissors",
+    "computer": "scissors",
+    "result": "tie",
+    "balance_after": 90,
+    "message": "It's a tie! Your bet is returned."
+  },
+  {
+    "time": "2025-12-10 02:12:43",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:46",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 02:12:46",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:46",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:12:46",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 02:13:21",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:13:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 2 + 2 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-10 02:13:22",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 1 + 1 = 2 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-10 02:13:24",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 1 + 5 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-10 02:13:32",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-10 02:13:33",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Dice: 6 + 1 = 7 (odd). You lose 10."
   }
 ]

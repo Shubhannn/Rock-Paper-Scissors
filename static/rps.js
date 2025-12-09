@@ -1,4 +1,7 @@
-let rpsBalance = 100, rpsWins = 0, rpsLosses = 0, rpsTies = 0;
+let rpsBalance = 100,
+  rpsWins = 0,
+  rpsLosses = 0,
+  rpsTies = 0;
 let rpsActive = true;
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -9,18 +12,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const lossesSpan = document.getElementById("rpsLosses");
   const tiesSpan = document.getElementById("rpsTies");
   const winrateSpan = document.getElementById("rpsWinrate");
-  const timeSpan = document.getElementById("rpsTime");
-  const userImg = document.getElementById("rpsUserImage");
-  const botImg = document.getElementById("rpsBotImage");
   const exitBtn = document.getElementById("rpsExit");
-  const optionCards = document.querySelectorAll(".option-card");
-  const userHand = document.querySelector(".user-hand");
-  const botHand = document.querySelector(".bot-hand");
 
-  const imgMap = {
-    rock: "/static/images/rock.png",
-    paper: "/static/images/paper.png",
-    scissors: "/static/images/scissors.png"
+  const userDisplay = document.getElementById("rpsUserDisplay");
+  const botDisplay = document.getElementById("rpsBotDisplay");
+  const optionButtons = document.querySelectorAll(".option-btn");
+
+  const emojiMap = {
+    rock: "✊",
+    paper: "✋",
+    scissors: "✌️"
   };
 
   balanceSpan.textContent = rpsBalance;
@@ -30,34 +31,26 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "/";
   });
 
-  optionCards.forEach(card => {
-    card.addEventListener("click", () => {
-      if (!rpsActive) {
-        alert("Start a new session (refresh) to play again.");
-        return;
-      }
+  optionButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      if (!rpsActive) return;
+
       if (rpsBalance <= 0) {
-        alert("No balance left. Refresh to restart.");
+        alert("No balance left.");
         rpsActive = false;
         return;
       }
 
-      const choice = card.getAttribute("data-choice");
+      const choice = btn.dataset.choice;
       const bet = parseInt(betInput.value, 10) || 0;
+
       if (bet <= 0 || bet > rpsBalance) {
-        alert("Enter a valid bet (<= balance).");
+        alert("Enter a valid bet.");
         return;
       }
 
-      optionCards.forEach(c => c.classList.remove("active"));
-      card.classList.add("active");
-
-      userImg.src = imgMap[choice];
-      userHand.classList.remove("shake");
-      botHand.classList.remove("shake");
-      void userHand.offsetWidth; void botHand.offsetWidth;
-      userHand.classList.add("shake");
-      botHand.classList.add("shake");
+      userDisplay.textContent = emojiMap[choice];
+      botDisplay.textContent = "…";
 
       fetch("/play", {
         method: "POST",
@@ -72,27 +65,32 @@ document.addEventListener("DOMContentLoaded", () => {
           ties: rpsTies
         })
       })
-      .then(res => res.json())
-      .then(data => {
-        rpsBalance = data.balance;
-        rpsWins = data.wins;
-        rpsLosses = data.losses;
-        rpsTies = data.ties;
+        .then((res) => res.json())
+        .then((data) => {
+          rpsBalance = data.balance;
+          rpsWins = data.wins;
+          rpsLosses = data.losses;
+          rpsTies = data.ties;
 
-        balanceSpan.textContent = rpsBalance;
-        botImg.src = imgMap[data.computer_choice];
-        winsSpan.textContent = rpsWins;
-        lossesSpan.textContent = rpsLosses;
-        tiesSpan.textContent = rpsTies;
-        winrateSpan.textContent = data.winrate;
-        statusP.textContent = data.message;
-        timeSpan.textContent = data.time;
+          balanceSpan.textContent = rpsBalance;
+          userDisplay.textContent = emojiMap[choice];
+          botDisplay.textContent = emojiMap[data.computer_choice];
 
-        if (rpsBalance <= 0) {
-          alert("You are out of chips in RPS!");
-          rpsActive = false;
-        }
-      });
+          winsSpan.textContent = rpsWins;
+          lossesSpan.textContent = rpsLosses;
+          tiesSpan.textContent = rpsTies;
+          winrateSpan.textContent = data.winrate;
+          statusP.textContent = data.message;
+
+          if (rpsBalance <= 0) {
+            alert("You are out of chips in RPS!");
+            rpsActive = false;
+          }
+        })
+        .catch((err) => {
+          console.error("RPS Error:", err);
+          statusP.textContent = "Server error.";
+        });
     });
   });
 });
