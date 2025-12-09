@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RPS | Neon Arcade</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/rps.js" defer></script>
+</head>
+<body class="bg-main">
+  <div class="page-shell">
+    <header class="header-bar">
+      <a href="/" class="back-link">← Home</a>
+      <h1>Rock · Paper · Scissors</h1>
+      <span id="rpsTime" class="time-label"></span>
+    </header>
+
+    <section class="top-panel">
+      <div class="info-box">
+        <span class="label">Balance</span>
+        <span id="rpsBalance" class="value">100</span>
+      </div>
+      <div class="info-box">
+        <span class="label">Bet</span>
+        <input type="number" id="rpsBet" value="10" min="1">
+      </div>
+      <button id="rpsExit" class="secondary-btn">Exit with Money</button>
+    </section>
+
+    <section class="arena-row">
+      <div class="side">
+        <h2>You</h2>
+        <div class="pill-display" id="rpsUserDisplay">–</div>
+      </div>
+      <div class="vs-pill">VS</div>
+      <div class="side">
+        <h2>Bot</h2>
+        <div class="pill-display" id="rpsBotDisplay">–</div>
+      </div>
+    </section>
+
+    <p id="rpsStatus" class="status-text">Choose your move.</p>
+
+    <section class="options-row">
+      <button class="option-btn rps-rock" data-choice="rock">Rock</button>
+      <button class="option-btn rps-paper" data-choice="paper">Paper</button>
+      <button class="option-btn rps-scissors" data-choice="scissors">Scissors</button>
+    </section>
+
+    <section class="stats-row">
+      <p>Wins: <span id="rpsWins">0</span> · Losses: <span id="rpsLosses">0</span> · Ties: <span id="rpsTies">0</span></p>
+      <p>Win Rate: <span id="rpsWinrate">0</span>%</p>
+    </section>
+  </div>
+</body>
+</html>

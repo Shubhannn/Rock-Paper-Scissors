@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dice | Neon Arcade</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/dice.js" defer></script>
+</head>
+<body class="bg-main">
+  <div class="page-shell">
+    <header class="header-bar">
+      <a href="/" class="back-link">← Home</a>
+      <h1>Dice Even · Odd</h1>
+      <span id="diceTime" class="time-label"></span>
+    </header>
+
+    <section class="top-panel">
+      <div class="info-box">
+        <span class="label">Balance</span>
+        <span id="diceBalance" class="value">100</span>
+      </div>
+      <div class="info-box">
+        <span class="label">Bet</span>
+        <input type="number" id="diceBet" value="10" min="1">
+      </div>
+      <button id="diceExit" class="secondary-btn">Exit with Money</button>
+    </section>
+
+    <section class="arena-row dice-row">
+      <div class="center-column">
+        <h2>Roll</h2>
+        <div class="pill-display dice-pill" id="diceDisplay">– + – = – (EVEN/ODD)</div>
+      </div>
+    </section>
+
+    <p id="diceStatus" class="status-text">Bet on Even or Odd, then roll.</p>
+
+    <section class="options-row">
+      <button class="option-btn dice-even" data-choice="even">Even</button>
+      <button class="option-btn dice-odd" data-choice="odd">Odd</button>
+    </section>
+
+    <section class="stats-row">
+      <p>Wins: <span id="diceWins">0</span> · Losses: <span id="diceLosses">0</span></p>
+    </section>
+  </div>
+</body>
+</html>

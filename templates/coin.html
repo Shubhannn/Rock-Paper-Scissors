@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Coin Flip | Neon Arcade</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="/static/coin.js" defer></script>
+</head>
+<body class="bg-main">
+  <div class="page-shell">
+    <header class="header-bar">
+      <a href="/" class="back-link">← Home</a>
+      <h1>Coin Flip</h1>
+      <span id="coinTime" class="time-label"></span>
+    </header>
+
+    <section class="top-panel">
+      <div class="info-box">
+        <span class="label">Balance</span>
+        <span id="coinBalance" class="value">100</span>
+      </div>
+      <div class="info-box">
+        <span class="label">Bet</span>
+        <input type="number" id="coinBet" value="10" min="1">
+      </div>
+      <button id="coinExit" class="secondary-btn">Exit with Money</button>
+    </section>
+
+    <section class="arena-row">
+      <div class="center-column">
+        <h2>Result</h2>
+        <div class="pill-display coin-pill" id="coinDisplay">HEADS / TAILS</div>
+      </div>
+    </section>
+
+    <p id="coinStatus" class="status-text">Pick Heads or Tails, then flip.</p>
+
+    <section class="options-row">
+      <button class="option-btn coin-heads" data-choice="heads">Heads</button>
+      <button class="option-btn coin-tails" data-choice="tails">Tails</button>
+    </section>
+
+    <section class="stats-row">
+      <p>Wins: <span id="coinWins">0</span> · Losses: <span id="coinLosses">0</span></p>
+    </section>
+  </div>
+</body>
+</html>

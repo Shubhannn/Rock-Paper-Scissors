@@ -1,312 +1,239 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    min-height: 100vh;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    color: #f9fafb;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 24px;
-    overflow-x: hidden;
-    position: relative;
+/* Background for all pages */
+body.bg-main {
+  margin: 0;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #f9fafb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 10% 20%, rgba(244,63,94,0.35), transparent 55%),
+    radial-gradient(circle at 90% 30%, rgba(59,130,246,0.35), transparent 55%),
+    radial-gradient(circle at 20% 80%, rgba(34,197,94,0.35), transparent 55%),
+    radial-gradient(circle at 80% 80%, rgba(234,179,8,0.35), transparent 55%),
+    linear-gradient(135deg, #020617, #020617);
 }
 
-/* Big colorful gradient background */
-.background-gradient {
-    position: fixed;
-    inset: 0;
-    background:
-        radial-gradient(circle at 10% 20%, rgba(244, 63, 94, 0.35), transparent 55%),
-        radial-gradient(circle at 90% 30%, rgba(59, 130, 246, 0.35), transparent 55%),
-        radial-gradient(circle at 20% 80%, rgba(34, 197, 94, 0.35), transparent 55%),
-        radial-gradient(circle at 80% 80%, rgba(234, 179, 8, 0.35), transparent 55%),
-        linear-gradient(135deg, #020617, #020617);
-    z-index: -2;
+/* Home shell from previous answer stays, plus game pages share similar shell */
+.home-wrapper,
+.page-shell {
+  max-width: 960px;
+  width: 100%;
+  padding: 20px 22px 24px;
+  border-radius: 22px;
+  background: linear-gradient(145deg, rgba(15,23,42,0.96), rgba(15,23,42,0.9));
+  border: 1px solid rgba(148,163,184,0.6);
+  box-shadow:
+    0 20px 45px rgba(15,23,42,0.9),
+    0 0 0 1px rgba(15,23,42,0.95);
+  backdrop-filter: blur(18px);
 }
 
-/* Glass-like main shell */
-.game-shell {
-    max-width: 960px;
-    width: 100%;
-    background: linear-gradient(145deg, rgba(15, 23, 42, 0.92), rgba(15, 23, 42, 0.88));
-    border-radius: 20px;
-    padding: 18px 20px 24px;
-    border: 1px solid rgba(148, 163, 184, 0.6);
-    box-shadow:
-        0 18px 45px rgba(15, 23, 42, 0.85),
-        0 0 0 1px rgba(15, 23, 42, 0.9);
-    backdrop-filter: blur(18px);
+/* === HEADER BAR === */
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 14px;
 }
 
-/* Header */
-header {
-    text-align: center;
-    margin-bottom: 16px;
+.header-bar h1 {
+  margin: 0;
+  font-size: 1.5rem;
 }
 
-h1 {
-    margin: 0;
-    font-size: 2.3rem;
-    letter-spacing: 1px;
+.back-link {
+  color: #a5b4fc;
+  text-decoration: none;
+  font-size: 0.9rem;
 }
 
-.subtitle {
-    margin: 4px 0 8px;
-    color: #cbd5f5;
-    font-size: 0.98rem;
+.back-link:hover {
+  text-decoration: underline;
 }
 
-#time {
-    font-size: 0.85rem;
-    color: #9ca3af;
+.time-label {
+  font-size: 0.8rem;
+  color: #9ca3af;
 }
 
-/* Cards */
-.setup-card,
-.game-card {
-    background: radial-gradient(circle at top left, rgba(30, 64, 175, 0.55), rgba(15, 23, 42, 0.96));
-    border-radius: 14px;
-    padding: 14px 16px;
-    margin-bottom: 14px;
-    box-shadow: 0 18px 35px rgba(15, 23, 42, 0.7);
-    border: 1px solid rgba(148, 163, 184, 0.5);
-}
-
-.setup-card {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 12px;
-}
-
-.setup-left {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-label {
-    font-size: 0.92rem;
-    color: #e5e7eb;
-}
-
-input {
-    padding: 6px 9px;
-    border-radius: 10px;
-    border: 1px solid #4b5563;
-    background: rgba(15, 23, 42, 0.95);
-    color: #e5e7eb;
-    outline: none;
-}
-
-input:focus {
-    border-color: #22c55e;
-}
-
-/* Buttons */
-.primary-btn,
-.secondary-btn {
-    border-radius: 999px;
-    cursor: pointer;
-    font-weight: 600;
-    border: none;
-    padding: 8px 16px;
-    font-size: 0.95rem;
-    transition: transform 0.1s ease, box-shadow 0.1s ease, filter 0.1s ease;
-}
-
-.primary-btn {
-    background: linear-gradient(135deg, #22c55e, #16a34a);
-    color: white;
-    box-shadow: 0 10px 24px rgba(34, 197, 94, 0.45);
-}
-
-.secondary-btn {
-    background: linear-gradient(135deg, #f97316, #ea580c);
-    color: white;
-    box-shadow: 0 10px 24px rgba(249, 115, 22, 0.45);
-}
-
-.primary-btn:hover,
-.secondary-btn:hover {
-    filter: brightness(1.1);
-    transform: translateY(-1px);
-}
-
-.primary-btn:active,
-.secondary-btn:active {
-    transform: translateY(1px) scale(0.98);
-}
-
-/* Game card */
-.hidden {
-    display: none;
-}
-
-.top-row {
-    display: grid;
-    grid-template-columns: 1.1fr 1.1fr 1.2fr;
-    gap: 10px;
-    margin-bottom: 12px;
+/* === TOP PANEL (balance, bet, exit) === */
+.top-panel {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
 }
 
 .info-box {
-    background: linear-gradient(145deg, rgba(15, 23, 42, 0.98), rgba(15, 23, 42, 0.9));
-    border-radius: 12px;
-    padding: 8px 10px;
-    border: 1px solid rgba(55, 65, 81, 0.85);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex: 1;
+  background: rgba(15,23,42,0.96);
+  border-radius: 12px;
+  padding: 8px 10px;
+  border: 1px solid rgba(55,65,81,0.85);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .label {
-    font-size: 0.8rem;
-    color: #9ca3af;
+  font-size: 0.8rem;
+  color: #9ca3af;
 }
 
 .value {
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: #22c55e;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #22c55e;
 }
 
-/* Arena */
-.arena {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    margin: 16px 0;
-    gap: 12px;
+input[type="number"] {
+  margin-top: 2px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+  background: #020617;
+  color: #e5e7eb;
 }
 
-.player-area,
-.bot-area {
-    text-align: center;
+/* Buttons */
+.secondary-btn {
+  background: linear-gradient(135deg, #f97316, #ea580c);
+  color: white;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 10px 24px rgba(249,115,22,0.45);
+  transition: transform 0.1s, box-shadow 0.1s, filter 0.1s;
+}
+.secondary-btn:hover {
+  filter: brightness(1.1);
+}
+.secondary-btn:active {
+  transform: translateY(1px) scale(0.98);
 }
 
-.player-area h2,
-.bot-area h2 {
-    margin-bottom: 8px;
-    font-size: 1rem;
-    color: #e5e7eb;
+/* === ARENA ROW === */
+.arena-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 10px;
 }
 
-.hand {
-    width: 130px;
-    height: 130px;
-    margin: 0 auto;
-    border-radius: 999px;
-    background: radial-gradient(circle at 30% 20%, #1f2937, #020617);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 2px solid rgba(148, 163, 184, 0.9);
-    overflow: hidden;
+.arena-row .side {
+  flex: 1;
+  text-align: center;
 }
 
-.hand img {
-    width: 76%;
-    transition: transform 0.15s ease;
+.vs-pill {
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #f97316, #ef4444);
+  font-weight: 700;
 }
 
-.vs-badge {
-    background: radial-gradient(circle at top, #f97316, #ea580c);
-    color: white;
-    padding: 8px 16px;
-    border-radius: 999px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    box-shadow: 0 10px 26px rgba(248, 113, 22, 0.6);
+/* Dice arena special */
+.dice-row {
+  justify-content: center;
 }
 
-/* Status */
+/* Pill display for choices / dice / coin */
+.pill-display {
+  margin-top: 4px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(148,163,184,0.7);
+  background: rgba(15,23,42,0.98);
+  min-width: 120px;
+  display: inline-block;
+}
+
+/* variant colors */
+.coin-pill {
+  background: rgba(30,64,175,0.9);
+}
+.dice-pill {
+  background: rgba(22,163,74,0.9);
+}
+
+/* Center column used on coin page */
+.center-column {
+  text-align: center;
+}
+
+/* === STATUS & OPTIONS === */
 .status-text {
-    text-align: center;
-    margin: 6px 0 14px;
-    min-height: 24px;
-    font-size: 0.98rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #e5e7eb;
+  margin: 6px 0 12px;
 }
 
-/* Options row with image buttons */
 .options-row {
-    display: flex;
-    justify-content: center;
-    gap: 18px;
-    margin-bottom: 12px;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
 }
 
-.option-card {
-    width: 120px;
-    padding: 10px 10px 8px;
-    background: radial-gradient(circle at top, rgba(59, 130, 246, 0.32), rgba(15, 23, 42, 0.98));
-    border-radius: 14px;
-    text-align: center;
-    cursor: pointer;
-    border: 1px solid rgba(59, 130, 246, 0.6);
-    transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease, background 0.12s ease;
-    color: #e5e7eb;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 4px;
+.option-btn {
+  min-width: 110px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: none;
+  cursor: pointer;
+  color: #f9fafb;
+  font-weight: 600;
+  font-size: 0.9rem;
+  background: #4b5563;
+  box-shadow: 0 10px 22px rgba(15,23,42,0.8);
+  transition: transform 0.1s, box-shadow 0.1s, filter 0.1s;
 }
 
-.option-card img {
-    width: 64%;
+.option-btn:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
 }
 
-.option-card span {
-    font-size: 0.9rem;
+.option-btn:active {
+  transform: translateY(1px) scale(0.98);
 }
 
-.option-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 12px 30px rgba(59, 130, 246, 0.55);
-    border-color: #38bdf8;
-}
+/* per-game colors */
+.rps-rock { background: linear-gradient(135deg, #f97316, #ea580c); }
+.rps-paper { background: linear-gradient(135deg, #22c55e, #16a34a); }
+.rps-scissors { background: linear-gradient(135deg, #3b82f6, #6366f1); }
 
-.option-card.active {
-    background: radial-gradient(circle at top, rgba(34, 197, 94, 0.36), rgba(15, 23, 42, 0.98));
-    border-color: #22c55e;
-    box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.8);
-}
+.coin-heads { background: linear-gradient(135deg, #06b6d4, #0ea5e9); }
+.coin-tails { background: linear-gradient(135deg, #e11d48, #ec4899); }
 
-/* Stats row */
+.dice-even { background: linear-gradient(135deg, #22c55e, #15803d); }
+.dice-odd { background: linear-gradient(135deg, #f97316, #e11d48); }
+
+/* === STATS ROW === */
 .stats-row {
-    text-align: center;
-    font-size: 0.95rem;
-    color: #e5e7eb;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #e5e7eb;
 }
 
-/* Simple shake animation for hands */
-@keyframes shake {
-    0%, 100% { transform: translateX(0); }
-    20% { transform: translateX(-8px); }
-    40% { transform: translateX(8px); }
-    60% { transform: translateX(-4px); }
-    80% { transform: translateX(4px); }
-}
-
-.shake {
-    animation: shake 0.35s ease-in-out 1;
-}
-
-/* Responsive tweaks */
+/* Responsive */
 @media (max-width: 720px) {
-    .top-row {
-        grid-template-columns: 1fr;
-    }
-    .arena {
-        grid-template-columns: 1fr;
-        row-gap: 12px;
-    }
-    .vs-badge {
-        margin: 6px auto;
-    }
+  .top-panel {
+    flex-direction: column;
+  }
+  .arena-row {
+    flex-direction: column;
+  }
 }

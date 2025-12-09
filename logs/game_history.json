@@ -1,0 +1,1334 @@
+[
+  {
+    "time": "2025-12-09 12:33:32",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:42",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:47",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:48",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:48",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:49",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:50",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:21:51",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:52",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:54",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:21:55",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 150,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:25:43",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "scissors",
+    "result": "win",
+    "balance_after": 110,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-09 16:25:43",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "paper",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "You lose! You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:25:49",
+    "game": "rps",
+    "choice": "rock",
+    "computer": "scissors",
+    "result": "win",
+    "balance_after": 110,
+    "message": "You win! You gain 10."
+  },
+  {
+    "time": "2025-12-09 16:26:08",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:09",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:10",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:11",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 60,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:11",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:11",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:11",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:11",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 60,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:12",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:12",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 40,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:12",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 30,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:12",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 20,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:12",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 30,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:13",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 40,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:13",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 50,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:13",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 60,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:16",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:16",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:16",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:16",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:17",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:17",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:17",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:18",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:18",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:18",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:18",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:19",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:19",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:20",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:21",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:22",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:22",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:22",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:22",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:22",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 40,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 50,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 60,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 60,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:23",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:24",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:24",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:24",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:25",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:25",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:25",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:26",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:30",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:30",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:31",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:31",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:31",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:31",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:32",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:32",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:32",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:34",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:34",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:34",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:34",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:34",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:26:35",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:35",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:26:35",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:37:23",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:37:23",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:24",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:24",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:25",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:28",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 3 + 2 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:37:29",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 1 + 3 = 4 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:37:32",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 3 + 4 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:32",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 6 + 1 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:32",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 2 + 3 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:37:32",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Dice: 2 + 3 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:37:33",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 3 + 4 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:38:45",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:47",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:48",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:48",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:49",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:38:49",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:38:49",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:49",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:50",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 50,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:50",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 40,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:50",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 30,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:50",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 20,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:50",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 30,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 16:38:51",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 20,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:51",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 10,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:38:51",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 0,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:05",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 5 + 2 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:07",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 1 + 3 = 4 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:07",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 1 + 2 = 3 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:39:08",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 2 + 1 = 3 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:08",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:10",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 1 + 3 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:39:10",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 5 + 1 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:14",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 60,
+    "message": "Dice: 4 + 3 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 16:39:14",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 70,
+    "message": "Dice: 3 + 2 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:39:15",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 1 + 4 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:39:16",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 4 + 1 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 16:39:26",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 6 + 2 = 8 (even). You lose 10."
+  }
+]
