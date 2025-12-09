@@ -1330,5 +1330,599 @@
     "result": "loss",
     "balance_after": 80,
     "message": "Dice: 6 + 2 = 8 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:27:31",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 20:27:35",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 20:27:38",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:04",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 3 + 1 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:08",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Dice: 6 + 4 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:09",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:10",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 2 + 6 = 8 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:11",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 4 + 5 = 9 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:11",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:12",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 3 + 5 = 8 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:12",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 5 + 4 = 9 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:12",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 5 + 3 = 8 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:12",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 1 + 2 = 3 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 3 + 6 = 9 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 4 + 3 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 6 + 4 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 1 + 5 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:14",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 5 + 6 = 11 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:14",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 1 + 3 = 4 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:14",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 4 + 3 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:15",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 3 + 2 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:15",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 4 + 2 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:17",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 2 + 4 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:17",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 4 + 3 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:17",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 6 + 6 = 12 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:17",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 5 + 3 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:18",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 4 + 6 = 10 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:18",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Dice: 2 + 2 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:18",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:18",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Dice: 6 + 1 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:19",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Dice: 1 + 1 = 2 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:19",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Dice: 6 + 6 = 12 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:19",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 130,
+    "message": "Dice: 1 + 6 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:19",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Dice: 5 + 5 = 10 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:19",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 130,
+    "message": "Dice: 2 + 3 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:20",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Dice: 4 + 6 = 10 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:20",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 130,
+    "message": "Dice: 1 + 6 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:20",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Dice: 3 + 6 = 9 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:20",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Dice: 1 + 4 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:20",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 100,
+    "message": "Dice: 3 + 4 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:21",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 4 + 5 = 9 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:21",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 3 + 1 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:21",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 6 + 3 = 9 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:21",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 2 + 3 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 4 + 2 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 3 + 4 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 6 + 6 = 12 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:22",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 6 + 1 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:24",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 4 + 6 = 10 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:24",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 6 + 1 = 7 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:24",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 6 + 6 = 12 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:24",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 6 + 3 = 9 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:25",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 5 + 1 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:25",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 5 + 3 = 8 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:27",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:27",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 6 + 1 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:27",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:27",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 1 + 5 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:27",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 3 + 2 = 5 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-09 20:28:28",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 3 + 3 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:28",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 100,
+    "message": "Dice: 1 + 1 = 2 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:28",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Dice: 2 + 6 = 8 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:28",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Dice: 1 + 5 = 6 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-09 20:28:29",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Dice: 1 + 3 = 4 (even). You win 10!"
   }
 ]
