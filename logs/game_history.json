@@ -1924,5 +1924,149 @@
     "result": "win",
     "balance_after": 130,
     "message": "Dice: 1 + 3 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:36",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "heads",
+    "result": "win",
+    "balance_after": 110,
+    "message": "Coin: heads. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:37",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:42",
+    "game": "coin",
+    "choice": "heads",
+    "computer": "tails",
+    "result": "loss",
+    "balance_after": 110,
+    "message": "Coin: tails. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 01:37:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 120,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:44",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 130,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:45",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:45",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 130,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 01:37:46",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "tails",
+    "result": "win",
+    "balance_after": 140,
+    "message": "Coin: tails. You guessed right and win 10!"
+  },
+  {
+    "time": "2025-12-10 01:37:46",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 130,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 01:37:47",
+    "game": "coin",
+    "choice": "tails",
+    "computer": "heads",
+    "result": "loss",
+    "balance_after": 120,
+    "message": "Coin: heads. Wrong guess, you lose 10."
+  },
+  {
+    "time": "2025-12-10 01:41:58",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 90,
+    "message": "Dice: 1 + 1 = 2 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-10 01:42:00",
+    "game": "dice",
+    "choice": "even",
+    "computer": "odd",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 6 + 1 = 7 (odd). You lose 10."
+  },
+  {
+    "time": "2025-12-10 01:42:00",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 70,
+    "message": "Dice: 3 + 3 = 6 (even). You lose 10."
+  },
+  {
+    "time": "2025-12-10 01:42:07",
+    "game": "dice",
+    "choice": "even",
+    "computer": "even",
+    "result": "win",
+    "balance_after": 80,
+    "message": "Dice: 3 + 1 = 4 (even). You win 10!"
+  },
+  {
+    "time": "2025-12-10 01:42:07",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "odd",
+    "result": "win",
+    "balance_after": 90,
+    "message": "Dice: 3 + 2 = 5 (odd). You win 10!"
+  },
+  {
+    "time": "2025-12-10 01:42:13",
+    "game": "dice",
+    "choice": "odd",
+    "computer": "even",
+    "result": "loss",
+    "balance_after": 80,
+    "message": "Dice: 3 + 3 = 6 (even). You lose 10."
   }
 ]

@@ -1,48 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Coin Flip | Neon Arcade</title>
-  <link rel="stylesheet" href="/static/style.css">
-  <script src="/static/coin.js" defer></script>
-</head>
-<body class="bg-main">
-  <div class="page-shell">
-    <header class="header-bar">
-      <a href="/" class="back-link">← Home</a>
-      <h1>Coin Flip</h1>
-      <span id="coinTime" class="time-label"></span>
-    </header>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Coin Flip | Shubhi Arcade</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <script src="/static/coin.js" defer></script>
+  </head>
+  <body>
+    <div class="bg"></div>
+    <div class="scanlines"></div>
 
-    <section class="top-panel">
-      <div class="info-box">
-        <span class="label">Balance</span>
-        <span id="coinBalance" class="value">100</span>
+    <main class="cabinet">
+      <header class="site-title">SHUBHI ARCADE</header>
+
+      <section class="control-panel spaced">
+        <div class="logo">COIN • FLIP</div>
+        <div class="balance-box">
+          <span>CREDITS</span>
+          <strong id="coinBalance">0</strong>
+        </div>
+      </section>
+
+      <div class="marquee">
+        <span
+          >PLACE YOUR BET • FLIP THE COIN • SHUBHI ARCADE • PLACE YOUR BET
+          •</span
+        >
       </div>
-      <div class="info-box">
-        <span class="label">Bet</span>
-        <input type="number" id="coinBet" value="10" min="1">
-      </div>
-      <button id="coinExit" class="secondary-btn">Exit with Money</button>
-    </section>
 
-    <section class="arena-row">
-      <div class="center-column">
-        <h2>Result</h2>
-        <div class="pill-display coin-pill" id="coinDisplay">HEADS / TAILS</div>
-      </div>
-    </section>
+      <section class="screen-area spaced">
+        <div class="screen-frame">
+          <div class="screen-inner coin-screen">
+            <h1>HEADS OR TAILS</h1>
 
-    <p id="coinStatus" class="status-text">Pick Heads or Tails, then flip.</p>
+            <!-- RESULT DISPLAY -->
+            <section class="arena-row coin-arena">
+              <div class="center-column">
+                <h2>RESULT</h2>
+                <div class="pill-display coin-pill" id="coinDisplay">
+                  HEADS / TAILS
+                </div>
+              </div>
+            </section>
 
-    <section class="options-row">
-      <button class="option-btn coin-heads" data-choice="heads">Heads</button>
-      <button class="option-btn coin-tails" data-choice="tails">Tails</button>
-    </section>
+            <p id="coinStatus" class="status-text">
+              Pick Heads or Tails, then flip.
+            </p>
 
-    <section class="stats-row">
-      <p>Wins: <span id="coinWins">0</span> · Losses: <span id="coinLosses">0</span></p>
-    </section>
-  </div>
-</body>
+            <!-- OPTIONS -->
+            <section class="options-row coin-options">
+              <button class="option-btn coin-heads" data-choice="heads">
+                HEADS
+              </button>
+              <button class="option-btn coin-tails" data-choice="tails">
+                TAILS
+              </button>
+            </section>
+
+            <!-- BET + EXIT -->
+            <section class="top-panel rps-panel">
+              <div class="info-box">
+                <span class="label">BET</span>
+                <input type="number" id="coinBet" value="10" min="1" />
+              </div>
+              <button id="coinExit" class="secondary-btn">
+                EXIT WITH MONEY
+              </button>
+            </section>
+
+            <!-- STATS -->
+            <section class="stats-row">
+              <p>
+                Wins: <span id="coinWins">0</span> · Losses:
+                <span id="coinLosses">0</span>
+              </p>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <footer class="credits fixed-bottom">
+        © SHUBHI ARCADE — PLAY RESPONSIBLY
+      </footer>
+    </main>
+  </body>
 </html>
