@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   exitBtn.addEventListener("click", () => {
     alert(`You exited Coin Flip with ${coinBalance} chips.`);
-    coinActive = false;
+    window.location.href = "/";
   });
 
   optionButtons.forEach(btn => {

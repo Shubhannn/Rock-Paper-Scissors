@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   exitBtn.addEventListener("click", () => {
     alert(`You exited with ${rpsBalance} chips from RPS!`);
-    rpsActive = false;
+    window.location.href = "/";
   });
 
   optionCards.forEach(card => {

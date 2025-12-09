@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   exitBtn.addEventListener("click", () => {
     alert(`You exited Dice with ${diceBalance} chips.`);
-    diceActive = false;
+    window.location.href = "/";
   });
 
   optionButtons.forEach(btn => {
